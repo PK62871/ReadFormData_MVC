@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Ye Home Page Hai Ji</h2>
+<h2  >Ye Home Page Hai Ji</h2>
 </body>
 </html>

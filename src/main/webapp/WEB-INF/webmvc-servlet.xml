@@ -9,7 +9,7 @@
 
 	<!-- Component scanning for Spring MVC controllers -->
 	<context:component-scan
-		base-package="springmvc.controller" />
+		base-package="springmvc" />
 
 	<!-- View Resolver configuration -->
 	<bean
