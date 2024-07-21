@@ -79,6 +79,11 @@ public class HomeController {
 	// 3rd Way to read From Data By USing @ModelAttribute.
 	@RequestMapping(path = "/registration", method = RequestMethod.POST)
 	public String recieveData(@ModelAttribute User user,Model model) {
+		
+		// if username will be empty then it will redirect on the samre page.
+		if(user.getUserName().isEmpty()) {
+			return "redirect:/contact";
+		}
 		System.out.println(user);
 		model.addAttribute("user",user);
 		return "success";
